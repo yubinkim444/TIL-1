@@ -118,3 +118,5 @@ public class BottomSheetFragment extends BottomSheetDialogFragment {
     }
 }
 ```
+추가적으로 BottomSheetDialogFragment 상속하여 사용시 android10에서 애니메이션 관련 버그가 발생하여 현재는 custom Fragment로 bottomSheet 만든 상태
+이외에 DialogFragment도 버그가 있으므로 BottomSheetDialog나 Dialog를 사용하도록 하는것이 좋다 
